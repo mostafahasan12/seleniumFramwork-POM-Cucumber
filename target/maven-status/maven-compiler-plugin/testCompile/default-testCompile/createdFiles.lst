@@ -1,0 +1,7 @@
+tests\AddProductsToWishlistTest.class
+tests\UserRegistertiontest.class
+tests\TestBase1.class
+tests\ChangeCurrencyTest.class
+runner\TestRunner.class
+steps\UserRegistration.class
+tests\UserRegistertionTestwithJavaFaker.class

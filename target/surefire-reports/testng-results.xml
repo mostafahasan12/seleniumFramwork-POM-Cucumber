@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T22:16:05 EET" name="Suite" finished-at="2022-10-11T22:16:23 EET" duration-ms="18276">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.AddProductsToWishlistTest@7979b8b7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.ChangeCurrencyTest@1c7f96b1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-10-11T22:16:05 EET" name="Test" finished-at="2022-10-11T22:16:23 EET" duration-ms="18276">
+      <class name="tests.UserRegistertionTestwithJavaFaker">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:01 EET" name="startdriver" finished-at="2022-10-11T22:16:05 EET" duration-ms="3974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:05 EET" name="setUpClass" finished-at="2022-10-11T22:16:05 EET" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15ac02d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="UserCanRegisterSuccssfully()[pri:1, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:05 EET" name="UserCanRegisterSuccssfully" finished-at="2022-10-11T22:16:12 EET" duration-ms="6810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:12 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:12 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=UserRegistertionTestwithJavaFaker.UserCanRegisterSuccssfully()[pri:1, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="RegisteredUserCanLogout()[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:12 EET" name="RegisteredUserCanLogout" finished-at="2022-10-11T22:16:13 EET" depends-on-methods="tests.UserRegistertionTestwithJavaFaker.UserCanRegisterSuccssfully" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:13 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:13 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=UserRegistertionTestwithJavaFaker.RegisteredUserCanLogout()[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="RegisteredUserCanLogIn()[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:13 EET" name="RegisteredUserCanLogIn" finished-at="2022-10-11T22:16:15 EET" depends-on-methods="tests.UserRegistertionTestwithJavaFaker.RegisteredUserCanLogout" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogIn -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:15 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:15 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogIn status=SUCCESS method=UserRegistertionTestwithJavaFaker.RegisteredUserCanLogIn()[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:15 EET" name="tearDownClass" finished-at="2022-10-11T22:16:15 EET" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.UserRegistertionTestwithJavaFaker@eca6a74]" started-at="2022-10-11T22:16:23 EET" name="stopDriver" finished-at="2022-10-11T22:16:24 EET" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserRegistertionTestwithJavaFaker -->
+      <class name="tests.ChangeCurrencyTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.ChangeCurrencyTest@1c7f96b1]" started-at="2022-10-11T22:16:15 EET" name="setUpClass" finished-at="2022-10-11T22:16:15 EET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15ac02d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@1c7f96b1]" started-at="2022-10-11T22:16:15 EET" name="UserCanChangeCurrency" finished-at="2022-10-11T22:16:16 EET" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanChangeCurrency -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@1c7f96b1]" started-at="2022-10-11T22:16:16 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:16 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanChangeCurrency status=SUCCESS method=ChangeCurrencyTest.UserCanChangeCurrency()[pri:1, instance:tests.ChangeCurrencyTest@1c7f96b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="UserCanSearchWithAutoSugguest()[pri:2, instance:tests.ChangeCurrencyTest@1c7f96b1]" started-at="2022-10-11T22:16:16 EET" name="UserCanSearchWithAutoSugguest" finished-at="2022-10-11T22:16:19 EET" duration-ms="3754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchWithAutoSugguest -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.ChangeCurrencyTest@1c7f96b1]" started-at="2022-10-11T22:16:19 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:19 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchWithAutoSugguest status=SUCCESS method=ChangeCurrencyTest.UserCanSearchWithAutoSugguest()[pri:2, instance:tests.ChangeCurrencyTest@1c7f96b1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.ChangeCurrencyTest@1c7f96b1]" started-at="2022-10-11T22:16:19 EET" name="tearDownClass" finished-at="2022-10-11T22:16:19 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.ChangeCurrencyTest -->
+      <class name="tests.AddProductsToWishlistTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:19 EET" name="setUpClass" finished-at="2022-10-11T22:16:19 EET" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@15ac02d5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="UserCanSearchWithAutoSugguest()[pri:1, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:19 EET" name="UserCanSearchWithAutoSugguest" finished-at="2022-10-11T22:16:21 EET" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSearchWithAutoSugguest -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:21 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:21 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSearchWithAutoSugguest status=SUCCESS method=AddProductsToWishlistTest.UserCanSearchWithAutoSugguest()[pri:1, instance:tests.AddProductsToWishlistTest@7979b8b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:21 EET" name="UserCanAddProductToWishlist" finished-at="2022-10-11T22:16:22 EET" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddProductToWishlist -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:22 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:22 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddProductToWishlist status=SUCCESS method=AddProductsToWishlistTest.UserCanAddProductToWishlist()[pri:2, instance:tests.AddProductsToWishlistTest@7979b8b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="UserCanAddRemoveProductFromCart()[pri:3, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:22 EET" name="UserCanAddRemoveProductFromCart" finished-at="2022-10-11T22:16:23 EET" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanAddRemoveProductFromCart -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:23 EET" name="screenshotonfailure" finished-at="2022-10-11T22:16:23 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanAddRemoveProductFromCart status=SUCCESS method=AddProductsToWishlistTest.UserCanAddRemoveProductFromCart()[pri:3, instance:tests.AddProductsToWishlistTest@7979b8b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.AddProductsToWishlistTest@7979b8b7]" started-at="2022-10-11T22:16:23 EET" name="tearDownClass" finished-at="2022-10-11T22:16:23 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.AddProductsToWishlistTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
